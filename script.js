@@ -2,6 +2,7 @@
 
 const videoElement = document.getElementById("video");
 const button = document.getElementById('button');
+const buttonChose = document.getElementById('choose');
 
 
 //Prompt to seelct media stream, pass to video element
@@ -12,7 +13,8 @@ async function selectMediaStream(){
         videoElement.srcObject= mediaStream;
         videoElement.onloadedmetadata = () => {
             videoElement.play();
-        }   
+        }
+        button.hidden = false;   
 
     }catch(error){
         //
@@ -26,5 +28,6 @@ button.addEventListener('click',async ()=>{
     button.disabled = false;
 });
 
-//On Load
-selectMediaStream();
+
+buttonChose.addEventListener('click', selectMediaStream);
+
