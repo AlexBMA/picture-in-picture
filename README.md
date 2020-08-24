@@ -1,4 +1,4 @@
-# pictureInPicture
+# picture-in-picture
 
 ### Motivation for this project
 
