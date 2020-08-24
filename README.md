@@ -10,4 +10,4 @@ The idea for this project from [JavaScript Web Projects: 20 Projects to Build Yo
 - You need to have basic knowledge of HTML, CSS and Javascript.
 
 
-[Viewlive](https://alexbma.github.io/pictureInPicture/)
+[Viewlive](https://alexbma.github.io/picture-in-picture/)
